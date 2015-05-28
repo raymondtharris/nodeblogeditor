@@ -1,0 +1,26 @@
+<div data-ng-controller='NewEditorController'>
+
+	<label>Name</label><input type="text" data-ng-model='newProject.name'/>
+	<label>Version</label><input type="text" data-ng-model='newProject.version'/>
+	<label>In Development</label><input type="checkbox" data-ng-model='newProject.indev'/>
+	<label>Description</label><input type="text" data-ng-model='newProject.description'/>
+	<label>In Depth</label><textarea data-ng-model='newProject.indepth'> </textarea>
+	<form ng-submit="AddNewTag()">
+	<input type="text" data-ng-model='newTag' ng-change="tagSuggest()"><input type="submit" value='Add Tag'>
+	<div ng-repeat="tags in alltags |filter:newTag">{{tags.tagName}} </div>
+	</form>
+	<div>
+		<label>Tags</label>
+		<ul class="projectTags" ng-model="newProject.tags">
+			<!--
+			<li class="tagList"  ng-repeat="tag in alltags" ng-click="delTag()" >{{tag.tagName}}</li>
+			
+				ng-class="{'tagListActive':toggleClass}" click
+			-->
+				<li class="tagList" ng-repeat="tag in newProject.tags">{{tag}}</li>
+			
+		
+		</ul>
+	</div>
+	<input type="button" value="Save Project" ng-click="AddNewProject()"/>
+</div>

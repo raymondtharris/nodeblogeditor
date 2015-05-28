@@ -1,0 +1,133 @@
+html{
+	margin:0;
+	padding:0;
+}
+body{
+	margin:0;
+	padding:0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", sans-serif;
+}
+button{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", sans-serif;
+}
+
+
+.pf-inline-sm{
+	height:34px;
+	width:390px;
+}
+
+.pf-textbox{
+	border:1px #ccc solid;
+	width:300px;
+	height:30px;
+	outline:none;
+
+}
+
+.pf-button{
+	float:right;
+	border:1px #ccc solid;
+	width:80px;
+	height:34px;
+	font-size:12px;
+	background:#fff;
+	color:#1177ee;
+	margin:0;
+	display:inline-block;
+}
+
+.ul-minimal{
+	list-style:none;
+}
+
+.li-text{
+	float:left;
+	padding-top:10px;
+	padding-left:6px;
+}
+.del-x{
+	height:100%;
+	width:40px;
+	background:none;
+	border:none;
+	border-left:solid 1px #ccc;
+	float:right;
+}
+.del-x:hover{
+	color:#ff0000;
+}
+.li-small{
+	border:solid 1px #ccc;
+	height:40px;
+	width:300px;
+	margin-bottom:6px;
+}
+
+/** colors **/
+.bg-light-blue{
+	background:#1177ee;
+}
+
+/** Text **/
+.pf-hero-lg-tx{
+	font-size:76px;
+	text-align:center;
+	
+}
+
+/** headers/ Nav **/
+.pf-sm-top{
+	width:100%;
+	height:20px;
+	background:#1177ee;
+}
+
+.pf-med-top{
+	width:100%;
+	height:40px;
+	background:#1177ee;
+}
+
+.pf-lg-top{
+	width:100%;
+	height:60px;
+	background:#1177ee;
+}
+
+.pf-banner-sm{
+	width:100%;
+	height:200px;
+	background:none;
+}
+.pf-banner-med{
+	width:100%;
+	height:320px;
+	background:none;
+}
+.pf-banner-lg{
+	width:100%;
+	height:400px;
+	background:none;
+}
+
+
+
+/*** Custom Nav ***/
+.pf-nav-button-long{
+	height:100%;
+	width:200px;
+	background:none;
+	border-style:none;
+	float:left;
+}
+.pf-nav-button-med{
+	height:100%;
+	width:100px;
+	background:none;
+	border-style:none;
+	float:left;
+}
+
+
+

@@ -1,0 +1,17 @@
+<div data-ng-controller="MediaController">
+	<div class="uploadDragArea">
+		<form action="/begin" method="post" enctype="multipart/form-data">
+		<!--<form ng-submit="temp()" method="post" enctype="multipart/form-data">--> 
+			<input type="file"  ng-model="stuff" name="fileName"/>
+			<input type="submit" value="upload"/>
+		</form>
+		<div class="uploadAllProgress">
+			Progress
+		</div>
+	</div>
+	<div class="uploadListContainer">
+		<ul>
+			<li>itemName ItemProgress Done</li>
+		</ul>
+	</div>
+</div>

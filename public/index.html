@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html data-ng-app="BlogEditor">
+<head>
+	<script type="text/javascript" src="lib/angular.min.js"></script>
+	<script type="text/javascript" src="lib/angular-route.min.js"></script>
+	
+	<script type="text/javascript" src="js/blog-editor.js"></script>
+	<script type="text/javascript" src="js/navigation.js"></script>
+	<script type="text/javascript" src="js/editor.js"></script>
+	<script type="text/javascript" src="js/projects.js"></script>
+	<script type="text/javascript" src="js/uploader.js"></script>
+	<script type="text/javascript" src="js/tags.js"></script>
+	
+	<script type="text/javascript" src="lib/purefine/pureFine.js"></script>
+	<link rel="stylesheet" type="text/css" href="lib/purefine/pureFine.css"/>
+	
+	<link rel="stylesheet" type="text/css" href="css/blog-editor.css"/>
+	
+</head>
+<body>
+	<pf-med-top>
+		<pf-nav-button-long>Blog Editor</pf-nav-button-long>
+		<pf-nav-button-med>View Site</pf-nav-button-med>
+	</pf-med-top>
+	<div class='container'>
+		<div data-ng-view></div>
+	</div>	
+</body>
+</html>

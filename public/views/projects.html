@@ -1,0 +1,7 @@
+<div data-ng-controller="ProjectsController">
+	<ul>
+		<li class="projectList-li" ng-repeat="proj in projectList">
+			<div>{{proj.name}}</div><div>date-added {{proj._id}}</div><div>date-updated</div><button data-ng-click="editProject()">edit</button><button data-ng-click="deleteProject()">delete</button>
+		</li>
+	</ul>
+</div>
